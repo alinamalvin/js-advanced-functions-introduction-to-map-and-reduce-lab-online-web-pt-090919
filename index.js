@@ -3,7 +3,11 @@ function mapToNegativize(sourceArray){
 }
 
 function mapToNegativize(sourceArray){ 
-  return sourceArray.map(functionx => x*-1);
+  return sourceArray.map, {
+    function(x) {
+      x*-1
+    }
+  }
 }
 
 function mapToNoChange(sourceArray){
