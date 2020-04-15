@@ -1,6 +1,6 @@
 
 function mapToNegativize(sourceArray){ 
-  return sourceArray.map, {
+  return sourceArray.map {
     function(x) {
       x*-1
     }
